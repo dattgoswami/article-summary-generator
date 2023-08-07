@@ -1,6 +1,6 @@
 # News Summary Generator
 
-The News Summary Generator is a Python application that generates a summary of a news article using an AI language model, provided by Monster API. This application fetches the article from a URL provided by the user, extracts the article's content, and sends it to the Monster API to generate the summary.
+The News Summary Generator is a Python application that generates a summary of a news article using Llama-7b. This application fetches the article from a URL provided by the user, extracts the article's content, and sends it to the Monster API to generate the summary.
 
 ## Installation
 
