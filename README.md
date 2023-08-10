@@ -1,6 +1,6 @@
 # News Summary Generator
 
-The News Summary Generator is a Python application that generates a summary of a news article using Llama-7b. This application fetches the article from a URL provided by the user, extracts the article's content, and sends it to the Monster API to generate the summary.
+The News Summary Generator is a Python application that generates a summary of a news article using Llama2-7b. This application fetches the article from a URL provided by the user, extracts the article's content, and sends it to the Monster API to generate the summary.
 
 ## Installation
 
@@ -23,7 +23,7 @@ python news_summary_generator.py
 Enter the URL of the article: <Paste your URL here>
 ```
 
-```Example Input/Output
+```
 Enter the URL of the article: https://www.philschmid.de/sagemaker-llama-llm
  The article discusses how to deploy the LLaMA model, which is a next-generation language model trained on more data and with improved capabilities compared to its predecessor. To deploy this model on Amazon SageMaker, you will use the Hugging Face Large Language Model (LLM) Docker Container (DLC), which provides a secure and managed environment for deploying and serving large language models.
 To begin, you need to set up your development environment by installing the AWS SDK and configuring an IAM role with the required permissions for Sagemaker. Once you have completed these steps, you can retrieve the new Hugging Face LLM DLC using the `sagemaker .get_execution_role()` method or by retrieving it directly from the AWS API.
